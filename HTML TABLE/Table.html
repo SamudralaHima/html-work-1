@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tabel</title>
+    <style>
+        td, th {
+            border: 1px solid #777;
+            padding:0.5rem;
+            text-align: center;
+            width: 50px;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            
+        }
+        .one{
+            background-color: lightgrey;
+        }
+        .two{
+            background-color: pink;
+        }
+       
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="yellow">Final examination schedule- fall 2008</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="yellow">
+                <th></th>
+                <th>monday Dec-15</th>
+                <th>tuesday dec-16</th>
+                <th>wednesday dec-17</th>
+                <th>thursday dec-18</th>
+                <th rowspan="5" class="two">home</th>
+            </tr>
+        
+        <tr>
+           <td class="one">8:00 am</td>
+           <td>Data structures</td>
+           <td>Algorithms</td>
+           <td>computer networks</td>
+           <td>datadase systems</td>
+        </tr>
+        <tr>
+            <td class="one">10:00 am</td>
+            <td>operating systems</td>
+            <td>artifical intelligrnce</td>
+            <td>software engineering</td>
+            <td>web developement</td>
+        </tr>
+        <tr>
+            <td class="one">1:00 pm</td>
+            <td>mechine learing</td>
+            <td>cyber security</td>
+            <td>mobile computing</td>
+            <td>human-computer interaction</td>
+        </tr>
+        <tr>
+            <td class="one">3:00 pm</td>
+            <td>BIg data analytics</td>
+            <td>cloud computing</td>
+            <td>parallel computing</td>
+            <td>computer graphics</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
